@@ -4,7 +4,7 @@ Work through stages 01–12 in order. **UNDONE** means the stage is pending or i
 
 | Stage | Status | Component | Deliverables and completion criteria |
 | --- | --- | --- | --- |
-| 01 | UNDONE | Problem and evaluation protocol | Document the RUL target, available inputs, engine-level splits, validation cutoffs, metrics, model selection rule, and experiment budget. |
+| 01 | DONE | Problem and evaluation protocol | [Experiment protocol](01-experiment-protocol.md): target, inputs, engine splits, cutoffs, metrics, selection rule, and bounded experiment plan documented. |
 | 02 | UNDONE | Repository and reproducible environment | Installable Python package, dependency setup, configuration files, checks/CI, and reproducible experiment commands recording seeds, data checksums, split IDs, and code version. Repository creation alone does not complete this stage. |
 | 03 | UNDONE | Dataset acquisition and validation | NASA C-MAPSS downloader, parser, schema and integrity checks, test-label alignment checks, and dataset inventory. |
 | 04 | UNDONE | Exploratory data analysis | Notebook and brief data report covering engine lifetimes, sensor trajectories, near-constant sensors, operating settings, and justified preprocessing choices. |
