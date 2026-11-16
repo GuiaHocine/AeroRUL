@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Generated data and experiment outputs
+/data/
+/artifacts/
+/mlruns/
+/mlartifacts/
+/checkpoints/
